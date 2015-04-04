@@ -4,6 +4,7 @@
 //
 //  Created by YXY on 15/4/4.
 //
+//  借用别人：http://www.cocoachina.com/ios/20150401/11459.html
 //
 
 #import "AppDelegate.h"
@@ -21,7 +22,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     MainViewController *viewController = [[MainViewController alloc] init];
-    viewController.view.backgroundColor = [UIColor redColor];
+    viewController.view.backgroundColor = [UIColor grayColor];
     Nav *animationController = [[Nav alloc] initWithRootViewController:viewController];
     [self.window setRootViewController:animationController];
     [self.window makeKeyAndVisible];
